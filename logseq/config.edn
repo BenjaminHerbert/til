@@ -22,6 +22,9 @@
  :default-templates
  {:journals ""}
 
+ :default-home {:page "TIL"}
+ 
+ 
  ;; Set a custom date format for the journal page title.
  ;; Default value: "MMM do, yyyy"
  ;; e.g., "Jan 19th, 2038"
@@ -416,4 +419,5 @@
  :file/name-format :triple-lowbar
  :feature/enable-whiteboards? false
  :feature/enable-flashcards? false
- :publishing/all-pages-public? true}
+ :publishing/all-pages-public? true
+ :feature/enable-journals? false}
