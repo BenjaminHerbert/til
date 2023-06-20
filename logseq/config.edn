@@ -360,6 +360,8 @@
  ;; Default value: false 
  ;; :editor/preferred-pasting-file? false
 
+ 
+ 
  ;; Quick capture templates for receiving content from other apps.
  ;; Each template contains three elements {time}, {text} and {url}, which can be auto-expanded
  ;; by receiving content from other apps. Note: the {} cannot be omitted.
