@@ -22,6 +22,9 @@
  :default-templates
  {:journals ""}
 
+ :default-home {:page "TIL"}
+ 
+ 
  ;; Set a custom date format for the journal page title.
  ;; Default value: "MMM do, yyyy"
  ;; e.g., "Jan 19th, 2038"
@@ -89,7 +92,7 @@
  ;; Available options:
  ;;  - integer from 0 to 6 (Monday to Sunday) 
  ;; Default value: 6 (Sunday)
- :start-of-week 6
+ :start-of-week 0
 
  ;; Specify a custom CSS import.
  ;; This option takes precedence over the local `logseq/custom.css` file.
@@ -360,6 +363,8 @@
  ;; Default value: false 
  ;; :editor/preferred-pasting-file? false
 
+ 
+ 
  ;; Quick capture templates for receiving content from other apps.
  ;; Each template contains three elements {time}, {text} and {url}, which can be auto-expanded
  ;; by receiving content from other apps. Note: the {} cannot be omitted.
@@ -414,4 +419,5 @@
  :file/name-format :triple-lowbar
  :feature/enable-whiteboards? false
  :feature/enable-flashcards? false
- :publishing/all-pages-public? true}
+ :publishing/all-pages-public? true
+ :feature/enable-journals? false}
